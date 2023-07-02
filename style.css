@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Space+Grotesk&display=swap');
+body {
+    background-color: rgb(52, 81, 92);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+p {
+    line-height: 1.25rem;
+}
+
+
+/* Nav & Links */
+
+.nav {
+    background-color: rgb(8, 79, 90);
+    height: 5%;
+}
+
+.nav-link,
+.btn-link {
+    color: rgb(21, 216, 223);
+    text-decoration: none;
+}
+
+.nav-link:visited,
+.btn-link:visited {
+    color: rgb(176, 63, 228);
+}
+
+.nav-link:hover,
+.btn-link:hover,
+.active {
+    color: rgb(192, 221, 24);
+    text-decoration: underline;
+}
+
+.disabled {
+    color: rgb(145, 145, 145)
+}
+
+
+/* Buttons */
+
+.btn {
+    background-color: slateblue;
+    border: .1rem outset silver;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-primary {
+    color: rgb(22, 41, 36);
+}
+
+.btn-link {
+    background-color: rgb(95, 37, 56);
+}
+
+.nav-btn {
+    background-color: rgb(117, 85, 117);
+    font-size: 1rem;
+}
+
+.badge {
+    color: rgb(192, 221, 24);
+}
+
+
+/* Card */
+
+.card {
+    border: .2rem double silver;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25%
+}
+
+.card-body {
+    font-variant: oldstyle-nums no-common-ligatures;
+    font-stretch: semi-expanded;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+
+/* Alert */
+
+.alert {
+    border: .05rem solid rgb(248, 30, 175);
+    background-color: rgb(202, 42, 77);
+    font-size: 1.25rem;
+    margin: 1.5rem .25rem;
+    padding: .25rem;
+}
+
+.alert-primary {
+    border: .2rem solid rgb(248, 30, 175);
+}
+
+
+/* Form */
+
+.row {
+    align-items: center;
+    background-color: rgba(117, 85, 117, .25);
+    box-sizing: border-box;
+    border: .125rem solid hsl(0, 0%, 90%);
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    margin: .5rem;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.form-check {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+#inputEmail4 {
+    transform: translate(1.65rem);
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid silver;
+    color: black;
+    display: block;
+}
+
+input::placeholder {
+    color: black;
+}
